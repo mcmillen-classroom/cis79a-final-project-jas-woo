@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">VeganRes</string>
+
+    <string name="question_1">Honey is vegan.</string>
+    <string name="question_2">Lots of candy, like Starbursts, are not even vegetarian.</string>
+    <string name="question_3">What common item listed here is often not vegan?</string>
+
+    <string name="feedback_1">Honey comes from bees, it is their food and home, and is not vegan.</string>
+    <string name="feedback_2">Unfortunately, most candy contains gelatin, which is made from boiled down skin and hooves.</string>
+    <string name="feedback_3">Often times, foods like this that are enriched, contain things like Omega-3, which is derived from fish.</string>
+
+    <string name="question_1_hint">Does is come from an animal?</string>
+    <string name="question_2_hint">Vegans abstain from all animal products. Vegetarians abstain from just dead animal products.</string>
+    <string name="question_3_hint">Sometimes, additions are made to items that would otherwise be plant based.</string>
+
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="next_button">Next</string>
+    <string name="previous_button">Prev</string>
+    <string name="hint_button">Hint?</string>
+    <string name="score">SCORE: %1$d</string>
+
+    <string-array name="question_3_answers">
+        <item>Apple</item>
+        <item>Flour</item>
+        <item>Tofu</item>
+        <item>Orange Juice</item>
+    </string-array>
+
+
+    <string name="a_button">Apple</string>
+    <string name="b_button">Flour</string>
+    <string name="c_button">Tofu</string>
+    <string name="d_button">Orange Juice</string>
+
+    <string name="question_end">You finished the quiz!</string>
+    <string name="feedback_end">Thanks for using VeganRes</string>
+
+    <string name="take_pic">Take Pic</string>
+    <string name="share_pic">Share Pic</string>
+    <string name="email_pic">Email Pic</string>
+
+    <string name="title_activity_vegan_product_list">Map</string>
+
+    <string name="vegan_products_trader_joes">Trader Joe\'s Vegan Products</string>
+    <string name="ok_button">OK</string>
+
+    <string-array name="list_trader_joes">
+        <item>Placeholder</item>
+        <item>Placeholder</item>
+        <item>Placeholder</item>
+        <item>Placeholder</item>
+    </string-array>
+
+
+</resources>

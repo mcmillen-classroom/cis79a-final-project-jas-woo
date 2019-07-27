@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/veganresgif" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:orientation="vertical"
+        >
+
+
+        <Button
+            android:id="@+id/fun_facts_quiz_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fun Facts Quiz: Learn Something"
+            android:textSize="10dp"
+            android:fontFamily="monospace"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            />
+        <Button
+            android:id="@+id/vegan_products_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find Products at your Local Grocery"
+            android:textSize="10dp"
+            android:fontFamily="monospace"
+            android:layout_marginLeft="25dp"
+            />
+        <Button
+            android:id="@+id/community_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Community: Plant-Based Across the globe"
+            android:textSize="10dp"
+            android:fontFamily="monospace"
+            android:layout_marginLeft="25dp"
+            />
+        <Button
+            android:id="@+id/vegan_identifier_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find out if it is Vegan"
+            android:textSize="10dp"
+            android:fontFamily="monospace"
+            android:layout_marginLeft="25dp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/veganres_textview"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:text="Get facts, friends, and find out what plant based products you can find at you local grocery!"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textColor="@color/colorMagenta"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_gravity="bottom"
+        />
+
+
+
+</FrameLayout>
